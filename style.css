@@ -77,5 +77,8 @@ h1{
   background: black;
 }
 footer{
-  text-align:center;
+ background-color: rgb(173, 216, 199);
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
