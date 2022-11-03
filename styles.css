@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:none;}
+.logo{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
+#companyname{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font: size 40px;
+}
+#companyname:hover{
+    cursor: pointer;
+    font-size: larger;
+    color: orange;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: blue;
+    color: white;
+}
+.navbar-links ul {
+margin: 0;
+padding: 0;
+display: flex;
+}
+.navbar-links li {
+    list-style: none;
+    padding: 10px 20px;
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar-links li a:hover{
+color:orange;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.3fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-areas: 
+    "content1 content2"
+    "content3 content4"
+    "content5 content6"
+    ;
+    grid-gap:none;
+  }
+#textstyle{
+    text-align:left;
+    padding-left: 5%;
+    }
+#text{
+  padding-top: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: left;
+}
+ #content1
+  {
+    grid-area:content1;
+    background-color:white;}
+  #content2{
+    grid-area: content2;
+    background-color: white;
+  }
+  #content3
+  {
+    grid-area:content3;
+    background-color: white;}
+  #content4{
+    grid-area: content4;
+    background-color: white;
+  }
+  #content5
+  {
+    grid-area:content5;
+    background-color: white;}
+  #content6{
+    grid-area: content6;
+    background-color: white;
+  }
+  section{
+    
+   margin: 10px;
+    padding: 20px;
+}
+.contact{
+  text-align: left;  
+  padding: 5%;
+}
+#phone{
+  position: relative;
+  float:left;
+  width: 200px;
+  height: 200px;
+}
+footer{
+    background-color:white;
+    height: 150px;
+    width:auto;
+    font-family: "open Sans";
+    margin: 10px;
+    padding-top: 40px;
+    color: black;
+}
+.footer-content{
+  position: relative;
+  padding-top:  2px;;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#callus{
+  list-style: none;
+  margin: 0;
+  padding-top: 7%;
+  border:none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+}
+#callus li{
+  background-color:none;
+  border: none;
+  margin:0.2em;
+  padding: 0.2em;
+}
+#hrstyle{
+  border: 3px solid greenyellow;
+  }
+#footer{
+  padding-top: 10px;}
