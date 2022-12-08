@@ -1,0 +1,145 @@
+
+/*for all*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: 58px;
+  min-height: 100vh;
+}
+
+/*navbar styles*/
+
+.logo{
+  text-decoration: none;
+  color: white;
+  }
+.navbar{
+  padding: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(46, 46, 212);
+  color: white;
+}
+
+
+.brand-title{
+  padding: 20px;
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+.brand-title:hover{
+  background-color: greenyellow;
+  color: black;
+  }
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 2rem;
+  display: block;
+  font-size:medium;
+  }
+  .navbar-links li:hover{
+   background-color: rgba(222, 237, 224, 0.152); 
+   
+  }
+  .toggle-button{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  }
+  li{
+    list-style: none;
+  }
+
+
+  @media(max-width:550px){
+    .navbar{
+      margin-right:0;
+      
+    }
+    .toggle-button{
+      display: flex;
+      
+    }
+
+     .navbar-links{
+      display: none;
+      width: 100%;
+    }
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .navbar-links ul {
+      
+    width: 100%;
+      flex-direction: column;
+    }
+    .navbar-links li{
+      text-align: center;
+    }
+.navbar-links li a {
+  padding:.5rem 1rem;
+}
+.navbar-links.active {
+  display: flex;
+}
+body{
+ min-height: 220vh;
+}
+}
+
+/*hr styles*/
+
+#hrstyle{
+ position: relative;
+ border: 3px solid greenyellow;
+}
+
+/* footer styles*/
+
+footer{
+  text-align: center;
+  background-color:yellowgreen;
+  color: black;
+  padding: 20px;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+.list {
+list-style-type: none;
+}
+
+
+  
+
+
