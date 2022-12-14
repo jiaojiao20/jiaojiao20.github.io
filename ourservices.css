@@ -12,7 +12,7 @@
   }
   
  
-  #phone {
+  #servicepic {
     margin:30px;
     max-width: 100px;
     height: auto;
@@ -20,7 +20,7 @@
  
 
  @media (max-width: 450px) {
-    #phone {
+    #servicepic {
         max-width: 120px;
         height: auto;
         
@@ -45,7 +45,7 @@
       }
   }
   @media (max-width: 300px) {
-    #phone {
+    #servicepic {
         max-width: 90px;
         height: auto;
       }
