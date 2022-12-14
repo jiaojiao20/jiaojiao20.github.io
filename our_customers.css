@@ -1,10 +1,19 @@
 #care{
     padding-left:50px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    justify-items:center;
     width:400px;
     height:auto;
-        
+        }
+@media (max-width: 450px) {
+    #care {
+        max-width: 120px;
+        height: auto;
+      }
 }
+ @media (max-width: 300px) {
+    #care {
+        max-width: 90px;
+        height: auto;
+      }
+     }
+  
+  
