@@ -18,11 +18,10 @@
   }
  @media (max-width: 450px) {
     #phone {
-        max-width: 120px;
-        height: auto;
+       display:none;
       }
       .contactinfo {
-        inline-size: 150px;
+        inline-size: 280px;
         overflow-wrap: break-word;
       }
 
@@ -41,11 +40,10 @@
   }
   @media (max-width: 300px) {
     #phone {
-        max-width: 90px;
-        height: auto;
+        display:none;
       }
       .contactinfo {
-        inline-size: 150px;
+        inline-size: 280px;
         overflow-wrap: break-word;
       }
    .contact {
