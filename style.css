@@ -77,12 +77,13 @@ body{
   li{
     list-style: none;
   }
-#pagelink{
+#pagelink {
   border-style: solid;
   border-radius: 0.5rem;
-  text-decoration: none;
+  background-color: rgb(71, 71, 70);
+  font-size:larger;
   color: white;
-  background-color: greenyellow;
+  text-decoration: none;
 }
 
   @media(max-width:550px){
