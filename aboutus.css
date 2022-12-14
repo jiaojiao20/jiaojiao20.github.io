@@ -1,23 +1,25 @@
-.aboutus {
+.contact {
     list-style: none;
-    padding-top: 20px;
-    margin:30px;
+    padding-top: 150px;
     display: flex;
     justify-content:center;
     align-items: center;
    
   }
-  #aboutpic {
+  
+ 
+  #phone {
     max-width: 250px;
     height: auto;
   }
 
+
  @media (max-width: 450px) {
     #phone {
-        display:none
+        display: none;
       }
       .contactinfo {
-        inline-size: 280px;
+        inline-size: 300px;
         overflow-wrap: break-word;
       }
 
@@ -26,7 +28,7 @@
         margin: 0;
         padding: 5px;
         padding-top: 50px;
-        display: block;
+        display: flex;
         justify-content:center;
         align-items: center;
         font-size: small;
@@ -36,7 +38,7 @@
   }
   @media (max-width: 300px) {
     #phone {
-       display:none;
+        display: none;
       }
       .contactinfo {
         inline-size: 280px;
