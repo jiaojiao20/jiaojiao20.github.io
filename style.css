@@ -77,7 +77,13 @@ body{
   li{
     list-style: none;
   }
-
+#pagelink{
+  border-style: solid;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: white;
+  background-color: greenyellow;
+}
 
   @media(max-width:550px){
     .navbar{
