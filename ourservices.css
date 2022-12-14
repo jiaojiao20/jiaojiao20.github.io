@@ -1,5 +1,6 @@
-.services {
-    padding-top:100px
+.contact {
+  
+  padding-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
     list-style: none;
@@ -11,18 +12,23 @@
   }
   
  
-  img {
+  #phone {
     margin:30px;
     max-width: 100px;
     height: auto;
   }
+ 
+
  @media (max-width: 450px) {
     #phone {
-       display:none;
+        max-width: 120px;
+        height: auto;
+        
       }
       .contactinfo {
-        inline-size: 280px;
+        inline-size: 300px;
         overflow-wrap: break-word;
+        
       }
 
       .contact {
@@ -30,7 +36,7 @@
         margin: 0;
         padding: 5px;
         padding-top: 50px;
-        display: flex;
+        display:list-item;
         justify-content:center;
         align-items: center;
         font-size: small;
@@ -40,10 +46,11 @@
   }
   @media (max-width: 300px) {
     #phone {
-        display:none;
+        max-width: 90px;
+        height: auto;
       }
       .contactinfo {
-        inline-size: 280px;
+        inline-size: 150px;
         overflow-wrap: break-word;
       }
    .contact {
