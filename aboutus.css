@@ -1,4 +1,4 @@
-.contact {
+.aboutus {
     list-style: none;
     padding-top: 150px;
     display: flex;
@@ -8,14 +8,14 @@
   }
   
  
-  #phone {
+  #aboutpic {
     max-width: 250px;
     height: auto;
   }
 
 
  @media (max-width: 450px) {
-    #phone {
+    #aboutpic {
         display: none;
       }
       .contactinfo {
@@ -23,7 +23,7 @@
         overflow-wrap: break-word;
       }
 
-      .contact {
+      .aboutus {
         list-style: none;
         margin: 0;
         padding: 5px;
@@ -37,14 +37,14 @@
       }
   }
   @media (max-width: 300px) {
-    #phone {
+    #aboutpic {
         display: none;
       }
       .contactinfo {
         inline-size: 280px;
         overflow-wrap: break-word;
       }
-   .contact {
+   .aboutus {
         list-style: none;
         margin: 0;
         padding: 30px;
