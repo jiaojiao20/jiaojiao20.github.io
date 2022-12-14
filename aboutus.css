@@ -13,6 +13,10 @@
     height: auto;
   }
 
+span{
+    font-weight:bold;
+}
+
 
  @media (max-width: 450px) {
     #aboutpic {
