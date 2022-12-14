@@ -18,7 +18,7 @@ span{
 }
 
 
- @media (max-width: 450px) {
+ @media (max-width: 550px) {
     #aboutpic {
         display: none;
       }
