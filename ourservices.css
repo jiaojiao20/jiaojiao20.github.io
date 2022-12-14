@@ -1,4 +1,4 @@
-.contact {
+.services {
   
   padding-top: 50px;
     margin-left: 100px;
@@ -25,13 +25,13 @@
         height: auto;
         
       }
-      .contactinfo {
+      .servicelist {
         inline-size: 300px;
         overflow-wrap: break-word;
         
       }
 
-      .contact {
+      .services {
         list-style: none;
         margin: 0;
         padding: 5px;
@@ -49,11 +49,11 @@
         max-width: 90px;
         height: auto;
       }
-      .contactinfo {
+      .servicelist {
         inline-size: 150px;
         overflow-wrap: break-word;
       }
-   .contact {
+   .services {
         list-style: none;
         margin: 0;
         padding: 30px;
